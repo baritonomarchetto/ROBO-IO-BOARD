@@ -88,7 +88,7 @@ When I took this desire of mine back from the drawer, I planted some stakes deep
 - have it capable of interacting in a speech to speech way;
 - give it feedback about it's environment;
 - give it the possibility to physically trigger external hardware.
-- 
+  
 That "hardware" being a light, a fan, a set of motors, etc.
 
 To the aforementioned, adds that I am forced to work on the cheap being, oh well... a poor guy. But I also am one that likes developing things anyone could use if readily instructed.
@@ -98,7 +98,7 @@ Additional boundary conditions for the whole project then are:
 - use of readily available components;
 - use of cheap devices;
 - use of simplest possible solutions.
-- 
+  
 We do all this for fun, after all! :)
 
 **Microcontroller Board**
@@ -130,6 +130,7 @@ Please be aware that the PCB doesn't host motors driver boards! You cannot contr
 In the following some more details about supported peripherals and related PCB design.
 
 **PWM Servos**
+
 Servo motors are different from all the other kind of motors. In particular, they have integrated driver boards and simple pinout, making them very handy to use.
 
 On the other end, integrated drivers calls for power handling, especially when there's a PCB in the middle.
@@ -219,7 +220,7 @@ Actually, the code I shared works as follows:
 
 - one extension board's rotary moves a servomotor in each directions.
 - the other one selects the servo motor focus.
-- 
+  
 At first my idea was the development of a two-analog sticks extension board to move more servos at once, but this was not compatible with the PCB current handling limits. Moving a single servo at a time makes it impossible to exceed the supported current and then damage the PCB, so it was the obvious solution.
 
 # And Now?
@@ -237,6 +238,7 @@ So we can likely divide the following in two (three, actually):
 # Acknowledgments
 
 <img width="1024" height="768" alt="IMG_20260420_165702_risultato" src="https://github.com/user-attachments/assets/47c7c589-290a-41db-bba3-65d893a9869d" />
+
 
 Many thanks goes to [JLCPCB](https://jlcpcb.com/IAT) for sponsoring PCBs manufacturing for this project. This project would never have seen the light without their material help.
 

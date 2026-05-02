@@ -58,6 +58,7 @@ Here is the bill of materials for main PCB and rotary extension board.
 
 1x DC power jack (DC barrel)
 
+
 **Extension Board (rotary)**
 
 2x rotary encoders (EC11)
